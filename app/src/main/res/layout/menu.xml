@@ -1,0 +1,400 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingTop="8dp"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear15"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/imageview7"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_arrow_back"
+						android:scaleType="fitCenter"
+						android:clickable="true"
+						android:focusable="true"
+						android:foreground="?attr/selectableItemBackground" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview2"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_extension_black"
+						android:scaleType="center" />
+					<LinearLayout
+						android:id="@+id/linear10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="javascript blocks"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview7"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="create your own blocks"
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear6"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview3"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_file_download_black"
+						android:scaleType="fitCenter" />
+					<LinearLayout
+						android:id="@+id/linear11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview8"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="Install built-in Blocks"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview9"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="Blocks Made to help you to understand blocks manager"
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear7"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview4"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_colorize_black"
+						android:scaleType="fitCenter" />
+					<LinearLayout
+						android:id="@+id/linear12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview10"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="properties"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview11"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="add property to properties list in the app"
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview5"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_menu_black"
+						android:scaleType="fitCenter" />
+					<LinearLayout
+						android:id="@+id/linear13"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview12"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="Events"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview13"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="add Event to events list"
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear9"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview6"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_dashboard_black"
+						android:scaleType="fitCenter" />
+					<LinearLayout
+						android:id="@+id/linear14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview14"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="Tags"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview15"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="add html element to elements list"
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear16"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview8"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/field"
+						android:scaleType="fitCenter" />
+					<LinearLayout
+						android:id="@+id/linear17"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview16"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="install the plugin apk"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview17"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="blocks system plugin apk (important)"
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear18"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?attr/selectableItemBackground">
+					<ImageView
+						android:id="@+id/imageview9"
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/support"
+						android:scaleType="fitCenter" />
+					<LinearLayout
+						android:id="@+id/linear19"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview18"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="2dp"
+							android:text="support me"
+							android:textSize="12sp"
+							android:textStyle="bold"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/textview19"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingTop="2dp"
+							android:paddingRight="8dp"
+							android:paddingBottom="2dp"
+							android:text="Support me to continue in developing the app "
+							android:textSize="10sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<ListView
+				android:id="@+id/listview1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="4dp"
+				android:dividerHeight="0dp"
+				android:divider="@null"
+				android:choiceMode="none" />
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:padding="8dp"
+				android:gravity="center_horizontal"
+				android:orientation="vertical">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="match_parent"
+					android:layout_height="300dp"
+					android:src="@drawable/flat_phone"
+					android:scaleType="fitCenter" />
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="There is No projects\nCreate Project Now!"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/_fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="16dp"
+		android:layout_gravity="right|bottom"
+		app:srcCompat="@drawable/ic_add_white" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

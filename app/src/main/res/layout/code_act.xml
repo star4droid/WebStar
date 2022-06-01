@@ -1,0 +1,138 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#29354B"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/searchLin"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="4dp"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<EditText
+						android:id="@+id/searchTxT"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:hint="find... "
+						android:textColorHint="#ECEFF1"
+						android:layout_weight="1" />
+					<ImageView
+						android:id="@+id/imageview1"
+						android:layout_width="50dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_pageview_white"
+						android:scaleType="fitCenter"
+						android:clickable="true"
+						android:focusable="true"
+						android:foreground="?attr/selectableItemBackground" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear6"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<EditText
+						android:id="@+id/rep"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:hint="replace with.. "
+						android:textColorHint="#CFD8DC"
+						android:layout_weight="1" />
+					<Button
+						android:id="@+id/button1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="replace All"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+					<Button
+						android:id="@+id/button2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="replace"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview2"
+				android:layout_width="45dp"
+				android:layout_height="35dp"
+				android:background="#212D3D"
+				android:src="@drawable/ic_keyboard_arrow_down_white"
+				android:scaleType="fitCenter"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="?attr/selectableItemBackground" />
+			<ImageView
+				android:id="@+id/imageview3"
+				android:layout_width="30dp"
+				android:layout_height="match_parent"
+				android:src="@drawable/ic_rotate_right_white"
+				android:scaleType="fitCenter"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="?attr/selectableItemBackground" />
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="10sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:singleLine="true" />
+		</LinearLayout>
+		<WebView
+			android:id="@+id/webview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</LinearLayout>
+</LinearLayout>
